@@ -1,0 +1,95 @@
+.contact{
+    margin: 20px auto;
+}
+
+.contact h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+.contact p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.contact-header{
+    margin: 50px auto;
+    max-width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* aligns items to top */
+    gap: 50px; /* spacing between info and form */
+    flex-wrap: wrap; /* makes it responsive */
+}
+
+.contact-info{
+    flex-basis: 30%; /* more space for info */
+    min-width: 250px; /* responsive minimum */
+}
+
+.contact-info ul li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    list-style: none;
+}
+
+.contact-info ul li img{
+    margin-right: 15px;
+    width: 30px;
+    height: auto;
+}
+
+.contact-form{
+    flex-basis: 65%; /* takes remaining space */
+    min-width: 300px;
+}
+
+.contact-form form input, 
+.contact-form form textarea{
+    display: block;
+    width: 100%;
+    background: #fff;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 15px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.contact-form form textarea{
+    min-height: 140px;
+    resize: vertical;
+}
+
+.contact-form button.btn1{
+    justify-content: center;
+    align-items: center;
+    background-color: #313647;
+    color: #fff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.contact-form button.btn1:hover{
+    background-color: #fff;
+    color: #313647;
+}
+
+/* Responsive */
+@media (max-width: 768px){
+    .contact-header{
+        flex-direction: column;
+    }
+    .contact-info, .contact-form{
+        flex-basis: 100%;
+    }
+}

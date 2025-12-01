@@ -1,0 +1,54 @@
+.credible{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #211832;
+    margin: 20px auto;
+    width: 100%;
+    padding: 10px 20px;
+    color: white;
+}
+
+.credibility {
+    text-align: center;
+    padding: 80px auto;
+}
+
+.credibility h2{
+    font-size: 60px;
+}
+
+.credibility p{
+    font-size: 20px;
+}
+
+.credibility img{
+    width: 70px;
+    height: auto;
+}
+
+
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .credible {
+        flex-direction: column; /* stack items vertically */
+        padding: 20px 10px;
+    }
+
+    .credibility {
+        padding: 20px 0;
+    }
+
+    .credibility h2 {
+        font-size: 40px;
+    }
+
+    .credibility p {
+        font-size: 16px;
+    }
+
+    .credibility img {
+        width: 50px;
+    }
+}

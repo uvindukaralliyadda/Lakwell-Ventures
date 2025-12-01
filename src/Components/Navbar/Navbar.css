@@ -1,0 +1,84 @@
+nav{
+    margin-top: 20px;
+    width: 90%;
+    /*background-color: #211832;*/
+    color: #fff;
+    display: flex;
+    padding: 4px 0;
+    position: fixed;
+    top: 0;
+    left: 5%;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+.logo{
+    width: 180px;
+    margin-right: 10px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 5px 20px;
+    font-size: 16px;
+}
+
+
+nav{
+  border-radius: 25px;
+  border-color: #fff;
+  background-color: #211832;
+  backface-visibility: 20%;
+  border-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Mobile styles for screens <= 768px */
+@media screen and (max-width: 768px) {
+
+  /* Hide the normal menu */
+  nav ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #211832; /* optional: same as nav background */
+    position: absolute;
+    top: 60px; /* below nav bar */
+    left: 0;
+    padding: 10px 0;
+  }
+
+  /* Show menu when active (toggle class with JS) */
+  nav ul.active {
+    display: flex;
+  }
+
+  /* Stack list items vertically */
+  nav ul li {
+    display: block;
+    margin: 15px 0;
+    text-align: center;
+  }
+
+  /* Hamburger menu toggle button */
+  .nav-toggle {
+    display: flex; /* visible on mobile */
+    flex-direction: column;
+    cursor: pointer;
+  }
+
+  .nav-toggle span {
+    height: 3px;
+    width: 25px;
+    background: white;
+    margin: 4px 0;
+    border-radius: 2px;
+  }
+
+  /* Optional: shrink logo on mobile */
+  .logo {
+    width: 140px;
+  }
+}
