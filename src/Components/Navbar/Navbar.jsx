@@ -9,24 +9,30 @@ const Navbar = () => {
     setIsOpen(!isOpen)
   }
 
+  const closeMenu = () => {
+    setIsOpen(false)
+  }
+
   return (
     <nav className='container'>
       <h2 className='logo'><a href='#hero'>Lakwell</a></h2>
 
-       {/* Hamburger for mobile */}
-      <div className='nav-toggle' onClick={() => setIsOpen(!isOpen)}>
+      <div className='nav-toggle' onClick={toggleMenu}>
         <span></span>
         <span></span>
         <span></span>
       </div>
 
-
       <ul className={isOpen ? 'active' : ''}>
-        <li><a href='#hero'>Home</a></li>
-        <li><a href='#about'>About</a></li>
-        <li><a href='#services'>Services</a></li>
-        <li><a href='#projects'>Project Scope</a></li>
-        <li><button className='btn'><a href='#contact'>Get In Touch</a></button></li>
+        <li><a href='#hero' onClick={closeMenu}>Home</a></li>
+        <li><a href='#about' onClick={closeMenu}>About</a></li>
+        <li><a href='#services' onClick={closeMenu}>Services</a></li>
+        <li><a href='#projects' onClick={closeMenu}>Project Scope</a></li>
+        <li>
+          <button className='btn'>
+            <a href='#contact' onClick={closeMenu}>Get In Touch</a>
+          </button>
+        </li>
       </ul>
     </nav>
   )
