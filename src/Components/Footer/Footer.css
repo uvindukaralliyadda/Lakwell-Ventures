@@ -2,7 +2,9 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin: 50px auto;
+    margin-top: 50px ;
+    margin-right: auto;
+    margin-left: auto;
     padding: 30px auto;
     background-color: #211832;
     color: #f2f2f2;
