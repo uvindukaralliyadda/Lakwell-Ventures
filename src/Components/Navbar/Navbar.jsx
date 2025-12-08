@@ -15,7 +15,7 @@ const Navbar = () => {
 
   return (
     <nav className='container'>
-      <h2 className='logo'><a href='#hero'>Lakwell</a></h2>
+      <h2 className='logo'><a href='#hero'>Reyaan Ventures</a></h2>
 
       <div className='nav-toggle' onClick={toggleMenu}>
         <span></span>
@@ -27,7 +27,8 @@ const Navbar = () => {
         <li><a href='#hero' onClick={closeMenu}>Home</a></li>
         <li><a href='#about' onClick={closeMenu}>About</a></li>
         <li><a href='#services' onClick={closeMenu}>Services</a></li>
-        <li><a href='#projects' onClick={closeMenu}>Project Scope</a></li>
+        <li><a href='#services' onClick={closeMenu}>People</a></li>
+        <li><a href='#projects' onClick={closeMenu}>Industries</a></li>
         <li>
           <button className='btn'>
             <a href='#contact' onClick={closeMenu}>Get In Touch</a>
