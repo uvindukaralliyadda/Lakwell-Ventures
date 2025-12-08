@@ -7,7 +7,7 @@ const AboutSection = () => {
     <div className='AboutOver' id='about'>
       <div className='abouts'>
         <h2>Who We Are</h2>
-        <p>Lakwell Ventures Private Limited
+        <p>Reeyan Ventures Private Limited
 is a leading investments
 facilitator firm based in the Sri
 Lanka. We specialize in
