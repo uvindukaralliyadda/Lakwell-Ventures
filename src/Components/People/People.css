@@ -1,0 +1,119 @@
+.peoples-header{
+    text-align: center;
+  font-weight: 600;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.people {
+  display: flex;
+  gap: 0px; /* space between left and right */
+}
+
+.people-image {
+  flex: 1; /* left column */
+  margin-left: 250px;
+  display: block ;
+  align-items: center;
+}
+
+
+.people-header {
+  flex: 1; /* right column */
+  margin-bottom: 50px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.6;
+  text-align: justify; /* optional */
+  max-width: 500px; /* keeps paragraph readable */
+  margin-right: 110px;
+  margin-top: 30px;
+  margin-left: 0;
+}
+
+/* Optional: make image responsive */
+.people-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 25px;
+  width: 300px;
+  height:auto;
+  margin-bottom: 20px;
+}
+
+
+.people-image-details{
+    margin-top: 10px;
+    margin-left: 0;
+    max-width: 300px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.people-image-details span{
+    margin-top: 5px;
+     max-width: 600px;
+     color: #211832;
+}
+
+.people-image-details h4{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+
+
+@media (max-width: 768px) {
+  .peoples-header {
+    font-size: 32px;
+  }
+
+  .people {
+    flex-direction: column;
+    align-items: center; /* centers ALL children */
+    text-align: center;
+    gap: 20px;
+    padding: 0 20px;
+    width: 100%;
+  }
+
+  .people-image {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /* centers the image + text */
+    justify-content: center;
+    margin: 0 auto;        /* ensures perfect center */
+  }
+
+  .people-image img {
+    width: 200px;
+    margin: 0 auto;        /* extra centering control */
+  }
+
+  .people-image-details {
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .people-header {
+    max-width: 100%;
+    margin: 0;
+    text-align: justify;
+  }
+}
+
+/* Extra small screens */
+@media (max-width: 480px) {
+  .people-image img {
+    width: 180px;
+  }
+
+  .people-header {
+    font-size: 18px;
+  }
+}

@@ -27,7 +27,7 @@ const Navbar = () => {
         <li><a href='#hero' onClick={closeMenu}>Home</a></li>
         <li><a href='#about' onClick={closeMenu}>About</a></li>
         <li><a href='#services' onClick={closeMenu}>Services</a></li>
-        <li><a href='#services' onClick={closeMenu}>People</a></li>
+        <li><a href='#peoples' onClick={closeMenu}>People</a></li>
         <li><a href='#projects' onClick={closeMenu}>Industries</a></li>
         <li>
           <button className='btn'>
