@@ -1,12 +1,13 @@
 nav {
-  margin-top: 20px;
-  width: 90%;
+  margin: 20px 23px;
+  width: calc(100% - 50px);
   color: white;
   display: flex;
   padding: 4px 0;
   position: fixed;
   top: 0;
-  left: 5%;
+  left: 2%;
+  right: 2%;
   align-items: center;
   justify-content: space-between;
   z-index: 10;
