@@ -5,8 +5,8 @@ const Footer = () => {
   return (
     <div className='footer'>
         <div className='footer-1'>
-            <h2>Lakwell</h2>
-            <p>Lakwell Ventures connects foreign investors with Sri Lankan projects, 
+            <h2>Reeyan Ventures</h2>
+            <p>Reeyan Ventures connects foreign investors with Sri Lankan projects, 
                 ensuring trusted, efficient, and successful investment solutions.</p>
         </div>
         <div className='footer-1'>
