@@ -14,8 +14,8 @@ const People = () => {
             <h3>Mr. Jayantha Wickramasinghe</h3>
             <h4>Chairman - Reeyan Ventures</h4>
             <hr/>
-            <span>BSc (Hons) Uk, Business Computing - University of Northumbria.</span>
-            <span>MSc/M.Litt International Business - University of St. Andrews (Scotland)</span>
+            <span><b>BSc (Hons) Uk, Business Computing - University of Northumbria.</b></span>
+            <span><b>MSc/M.Litt International Business - University of St. Andrews (Scotland)</b></span>
             </div>
       </div>
 
