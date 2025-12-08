@@ -10,7 +10,7 @@ const Hero = () => {
         <h1>Connecting Opportunities With Capital And Strategic Partnerships</h1>
         <p>We bridge businesses and investors for successful transactions</p>
         <div className='buttons'>
-        <button className='btn'><a href={profilePDF} download>Learn More</a></button>
+        <button className='btn '><a href={profilePDF} download>Learn More</a></button>
         <button className='btn1'><a href='#contact'>Contact</a></button>
         </div>
       </div>
