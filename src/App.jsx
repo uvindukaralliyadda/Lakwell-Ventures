@@ -8,6 +8,7 @@ import Contact from './Components/Contact/Contact'
 import Footer from './Components/Footer/Footer'
 import Articles from './Components/Articles/Articles'
 import People from './Components/People/People'
+import Industries from './Components/Industries/Industries'
 
 const App = () => {
   return (
@@ -18,7 +19,7 @@ const App = () => {
       <AboutSection/>
       <Articles/>
       <People/>
-      <Project/>
+      <Industries/>
       <Contact/>
       <Footer/>
     </div>
