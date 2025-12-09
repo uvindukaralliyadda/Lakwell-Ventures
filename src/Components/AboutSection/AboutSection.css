@@ -12,6 +12,7 @@
   display: flex;
   flex-direction: column; /* stack heading, paragraph, button */
   align-items: center; /* horizontally center all children */
+  width: auto;
 }
 
 .abouts2 {
@@ -74,6 +75,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: auto;
   }
 
   .abouts h2 {
