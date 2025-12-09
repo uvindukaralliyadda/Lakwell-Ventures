@@ -4,7 +4,8 @@
 
 .contact h2{
     text-align: center;
-    font-size: 40px;
+    font-weight: 600;
+    font-size: 50px;
 }
 
 .contact p{
@@ -12,6 +13,8 @@
     text-align: center;
     font-size: 20px;
     line-height: 1.6;
+    font-size: 20px;
+    color: #211832;
 }
 
 .contact-header{
@@ -91,5 +94,11 @@
     }
     .contact-info, .contact-form{
         flex-basis: 100%;
+    }
+    .contact h2{
+        font-size: 32px;
+    }
+    .contact p{
+        font-size: 16px;
     }
 }
