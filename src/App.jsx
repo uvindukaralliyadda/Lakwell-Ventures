@@ -16,10 +16,6 @@ const App = () => {
       <Navbar/>
       <Hero/>
       <Credibility/>
-      <div className="container">
-      
-      
-      </div>
       <AboutSection/>
       <Articles/>
       <div className="container">
