@@ -87,6 +87,11 @@
 }
 
 @media (max-width: 768px) {
+  .PeopleOver{
+  margin: 40px auto;
+  
+}
+
   .peoples-header {
     font-size: 32px;
     text-align: center;
