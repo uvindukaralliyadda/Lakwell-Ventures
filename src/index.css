@@ -28,6 +28,7 @@ a{
 }
 
 .container{
+  margin-top: 0;
   padding-left: 10%;
   padding-right: 10%;
 }

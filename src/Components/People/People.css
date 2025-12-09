@@ -1,5 +1,18 @@
+.PeopleOver{
+  margin: 40px auto;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
 .peoples-header{
     text-align: center;
+  font-weight: 600;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.peoples-header h2 {
+  text-align: center;
   font-weight: 600;
   font-size: 50px;
   margin-bottom: 30px;
@@ -12,7 +25,7 @@
 
 .people-image {
   flex: 1; /* left column */
-  margin-left: 250px;
+  margin-left: 100px;
   display: block ;
   align-items: center;
 }
@@ -24,9 +37,8 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 1.6;
-  word-spacing: 2px;
   text-align: justify; /* optional */
-  max-width: 550px; /* keeps paragraph readable */
+  max-width: 600px; /* keeps paragraph readable */
   margin-right: 110px;
   margin-top: 30px;
   margin-left: 0;
@@ -66,18 +78,26 @@
     margin-bottom: 10px;
 }
 
-
+.people-header p {
+  word-spacing: 5px;
+  width: 500px;
+  font-size: 20px; /* desktop default */
+  line-height: 1.6;
+  text-align: justify;
+}
 
 @media (max-width: 768px) {
   .peoples-header {
     font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
   }
 
   .people {
     flex-direction: column;
     align-items: center; /* centers ALL children */
     text-align: center;
-    gap: 20px;
+    gap: 50px;
     padding: 0 20px;
     width: 100%;
   }
@@ -102,20 +122,60 @@
     max-width: 300px;
   }
 
+  .people-image-details h3 {
+    font-size: 18px;
+  }
+
+  .people-image-details h4 {
+    font-size: 16px;
+  }
+
+  .people-image-details span {
+    font-size: 14px;
+  }
+
   .people-header {
     max-width: 100%;
     margin: 0;
     text-align: justify;
+    font-size: 20px;
+    
+  }
+
+  .people-header p {
+    font-size: 16px; /* smaller for tablets */
+    width: 100%;
+    margin: 0 15px 15px 15px; /* spacing */
+    
   }
 }
 
 /* Extra small screens */
 @media (max-width: 480px) {
+
+  .people-image-details h3 {
+    font-size: 16px;
+  }
+
+  .people-image-details h4 {
+    font-size: 14px;
+  }
+
+  .people-image-details span {
+    font-size: 12px;
+  }
+
   .people-image img {
     width: 180px;
   }
 
   .people-header {
     font-size: 18px;
+  }
+
+  .people-header p {
+    font-size: 14px; /* smaller for phones */
+    width: 100%;
+    margin: 0 auto 15px auto;
   }
 }

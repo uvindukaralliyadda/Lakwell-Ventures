@@ -16,11 +16,14 @@ const App = () => {
       <Navbar/>
       <Hero/>
       <Credibility/>
+      <div className="container">
       <AboutSection/>
       <Articles/>
       <People/>
+      
       <Industries/>
       <Contact/>
+      </div>
       <Footer/>
     </div>
   )
