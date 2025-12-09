@@ -13,7 +13,19 @@ const Articles = () => {
         <p><b>Investment Consultancy. Investment Facilitation. Investment Registration</b></p>
         </div>
          <div class="card__container">
-            <article class="card__article">
+
+            <article class="card__article" id='i-con'>
+               <img src={consultant} alt="image" class="card__img"/>
+
+               <div class="card__data">
+                  <h2 class="card__title">Investment Consultancy</h2>
+                  <span class="card__description">Expert insights shaping smarter investment decisions.</span>
+                  
+                  
+               </div>
+            </article>
+            
+            <article class="card__article" id='i-fac'>
                <img src={investment} alt="image" class="card__img"/>
 
                <div class="card__data">
@@ -24,18 +36,7 @@ const Articles = () => {
                </div>
             </article>
 
-            <article class="card__article">
-               <img src={consultant} alt="image" class="card__img"/>
-
-               <div class="card__data">
-                  <h2 class="card__title">Investment Consultancy</h2>
-                  <span class="card__description">Expert insights shaping smarter investment decisions.</span>
-                  
-                  
-               </div>
-            </article>
-
-            <article class="card__article">
+            <article class="card__article" id='i-reg'>
                <img src={register} alt="image" class="card__img"/>
 
                <div class="card__data">

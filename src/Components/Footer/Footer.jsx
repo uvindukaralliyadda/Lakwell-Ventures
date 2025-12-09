@@ -4,12 +4,15 @@ import './Footer.css'
 const Footer = () => {
   return (
     <div className='footer'>
+        <div className='footerx'>
         <div className='footer-1'>
-            <h2>Reeyan Ventures</h2>
-            <p>Reeyan Ventures connects foreign investors with Sri Lankan projects, 
+            <h2>Reyaan Ventures</h2>
+            <p>Reyaan Ventures connects foreign investors with Sri Lankan projects, 
                 ensuring trusted, efficient, and successful investment solutions.</p>
         </div>
-        <div className='footer-1'>
+        </div>
+        <div className='footerx'>
+        <div className='footer-2'>
             <h2>Quick Links</h2>
             <ul>
                 <li><a href='#hero' >Home</a></li>
@@ -20,17 +23,21 @@ const Footer = () => {
                 <li><a href='#contact'>Contact</a></li>
             </ul>
         </div>
-        <div className='footer-1'>
+        </div>
+        <div className='footerx'>
+        <div className='footer-3'>
             <h2>Services</h2>
             <ul>
-                <li>Investment Facilitation</li>
-                <li>Tailored Investment Consultation</li>
-                <li>Investment Registration</li>
+                <li><a href='#i-fac' >Investment Facilitation</a></li>
+                <li><a href='#i-con' >Tailored Investment Consultation</a></li>
+                <li><a href='#i-reg' >Investment Registration</a></li>
                 
             </ul>
         </div>
+        </div>
+        </div>
       
-    </div>
+    
   )
 }
 

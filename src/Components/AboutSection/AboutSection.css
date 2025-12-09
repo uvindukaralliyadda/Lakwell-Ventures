@@ -16,7 +16,9 @@
 
 .abouts2 {
   flex: 1;
-  padding: 20px;
+  padding: 110px 10px;
+  margin-left: 20px;
+  
 }
 
 .abouts2 img {
@@ -25,6 +27,7 @@
   height: auto;
   border-radius: 20px;
   display: block;
+  
 }
 
 
