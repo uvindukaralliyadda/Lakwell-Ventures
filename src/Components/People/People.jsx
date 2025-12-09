@@ -21,9 +21,7 @@ const People = () => {
 
       <div className='people-header'>
         
-        <p>Jayantha Wickramasinghe is a seasoned business professional with over 17 years of experience in trading and
-            manufacturing at Solex group. He has accumulated over 10 years of experience in renewable energy project development
-            and execution through Lakwell Solar and Lakwell Energy</p>
+        <p>Jayantha Wickramasinghe is a seasoned business professional with over 17 years of experience in trading and manufacturing at Solex group. He has accumulated over 10 years of experience in renewable energy project development and execution through Lakwell Solar and Lakwell Energy</p>
         <p>He also do counsultancy for some of the leading construction companies and solutions providers in Sri Lanka</p>
       </div>
       </div>

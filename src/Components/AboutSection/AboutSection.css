@@ -42,7 +42,7 @@
     margin-bottom: 30px;
   font-weight: 400;
   font-size: 20px;
-  word-spacing: 2px;
+  word-spacing: normal;
   line-height: 1.6;
   text-align: justify; /* optional */
   max-width: 550px; /* keeps paragraph readable */
@@ -102,5 +102,6 @@
     font-size: 16px;
     text-align: justify;
     margin-top: 20px;
+    word-spacing: normal;
   }
 }
