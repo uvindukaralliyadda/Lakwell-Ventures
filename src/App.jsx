@@ -18,10 +18,12 @@ const App = () => {
       <Credibility/>
       <AboutSection/>
       <Articles/>
+      
       <div className="container">
       <People/>
-      <Industries/>
       </div>
+      <Industries/>
+     
       <Contact/>
       
       <Footer/>

@@ -1,5 +1,14 @@
 .contact{
-    margin: 20px auto;
+    margin: 20px auto 0;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    background-image: linear-gradient(rgba(6, 4, 24, 0.7), rgba(12, 10, 27, 0.7)), url('../../assets/Hero.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-opacity: 0.9;
+    color: #fff;
 }
 
 .contact h2{
@@ -14,11 +23,12 @@
     font-size: 20px;
     line-height: 1.6;
     font-size: 20px;
-    color: #211832;
+    color: #fff;
 }
 
 .contact-header{
     margin: 50px auto;
+    
     max-width: 90%;
     display: flex;
     justify-content: space-between;
@@ -30,14 +40,30 @@
 .contact-info{
     flex-basis: 30%; /* more space for info */
     min-width: 250px; /* responsive minimum */
+    
 }
 
+.contact-info h2, .contact-form h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 200;
+}
+
+.contact-info ul{
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
 .contact-info ul li{
     display: flex;
     align-items: center;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
     list-style: none;
+    gap: 25px;
+    margin-top: 60px;
+    font-weight: 200;
 }
+
+
 
 .contact-info ul li img{
     margin-right: 15px;
@@ -48,6 +74,10 @@
 .contact-form{
     flex-basis: 65%; /* takes remaining space */
     min-width: 300px;
+}
+
+.contact-form form label{
+    font-weight: 200;
 }
 
 .contact-form form input, 
@@ -72,14 +102,15 @@
 .contact-form button.btn1{
     justify-content: center;
     align-items: center;
-    background-color: #313647;
-    color: #fff;
+    background:transparent;
+    border:2px solid #fff;
     padding: 12px 25px;
-    border: none;
     border-radius: 25px;
     font-weight: bold;
     cursor: pointer;
     transition: 0.4s ease-in-out;
+    margin-left: 50%;
+    transform: translateX(-50%);
 }
 
 .contact-form button.btn1:hover{
@@ -88,17 +119,49 @@
 }
 
 /* Responsive */
-@media (max-width: 768px){
+@media (max-width: 992px){
     .contact-header{
         flex-direction: column;
+        align-items: center;
     }
     .contact-info, .contact-form{
         flex-basis: 100%;
+        min-width: 100%;
     }
+    .contact-info ul li{
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 768px){
     .contact h2{
         font-size: 32px;
     }
     .contact p{
         font-size: 16px;
     }
+    .contact-info ul li {
+        font-size: 14px;
+        line-height: 1.5;
+        word-wrap: break-word;
+        margin-right: 20%;
+        margin-left: 20%;
+  }
+
+    .contact-info ul li img{
+        width: 25px;
+        margin-right: 15px;
+    }
+    .contact-form form input, 
+    .contact-form form textarea{
+        font-size: 14px;
+        padding: 10px 12px;
+    }
+    .contact-form button.btn1{
+        padding: 10px 20px;
+    }
+
+    .contact-info h2, .contact-form h2{
+    font-size: 18px;
+}
 }
