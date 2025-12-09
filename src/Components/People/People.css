@@ -24,8 +24,9 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 1.6;
+  word-spacing: 2px;
   text-align: justify; /* optional */
-  max-width: 500px; /* keeps paragraph readable */
+  max-width: 550px; /* keeps paragraph readable */
   margin-right: 110px;
   margin-top: 30px;
   margin-left: 0;

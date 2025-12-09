@@ -10,7 +10,7 @@ const Articles = () => {
     <div class="containerx" id='services'>
         <div className='service-header' id='services'>
         <h2>Our Services</h2>
-        <p>Professional mediation ensuring smooth transparent high value deals</p>
+        <p><b>Investment Consultancy. Investment Facilitation. Investment Registration</b></p>
         </div>
          <div class="card__container">
             <article class="card__article">

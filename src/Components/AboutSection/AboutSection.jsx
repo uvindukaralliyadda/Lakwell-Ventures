@@ -6,8 +6,8 @@ const AboutSection = () => {
   return (
     <div className='AboutOver' id='about'>
       <div className='abouts'>
-        <h2>Who We Are</h2>
-        <p>Reeyan Ventures Private Limited
+        <h2>About Company</h2>
+        <p>Reyaan Ventures Private Limited
 is a leading investments
 facilitator firm based in the Sri
 Lanka. We specialize in
