@@ -17,9 +17,10 @@ const App = () => {
       <Hero/>
       <Credibility/>
       <div className="container">
-      <AboutSection/>
+      
       
       </div>
+      <AboutSection/>
       <Articles/>
       <div className="container">
       <People/>

@@ -1,36 +1,38 @@
 .AboutOver {
   margin-top: 20px;
   display: flex;
+  flex-wrap: wrap; /* allow sections to stack */
   width: 100%;
-  overflow-x: hidden;
   padding: 20px;
+  justify-content: center; /* center content horizontally */
+  box-sizing: border-box;
 }
 
 .abouts {
-  flex: 1;
+  flex: 1 1 400px;
   padding: 20px;
   display: flex;
-  flex-direction: column; /* stack heading, paragraph, button */
-  align-items: center; /* horizontally center all children */
-  width: auto;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
 }
 
 .abouts2 {
-  flex: 1;
-  padding: 60px 10px;
-  margin-left: 20px;
-  
+  flex: 1 1 400px;
+  padding: 20px;
+  display: flex;
+  justify-content: center; /* center image */
+  box-sizing: border-box;
+  margin-left: 0; /* remove extra left margin */
 }
 
 .abouts2 img {
-  margin-top: 50px;
-  max-width: 100%;
+  margin-top: 25px;
+  max-width: 100%; /* image fits container */
   height: auto;
   border-radius: 20px;
   display: block;
-  
 }
-
 
 .abouts h2 {
   text-align: center;
@@ -40,17 +42,16 @@
 }
 
 .abouts p {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
   font-weight: 400;
   font-size: 20px;
-  word-spacing: normal;
   line-height: 1.6;
-  text-align: justify; /* optional */
-  max-width: 550px; /* keeps paragraph readable */
+  text-align: justify;
+  max-width: 100%;
 }
 
 .btn-container {
-   margin-top: 6px; /* space from paragraph */
+  margin-top: 6px;
   padding: 12px 30px;
   border: none;
   border-radius: 25px;
@@ -60,50 +61,23 @@
   cursor: pointer;
 }
 
-/* Mobile screens */
-@media screen and (max-width: 768px) {
-
+/* Responsive adjustments */
+@media (max-width: 768px) {
   .AboutOver {
-    display: flex;
-    flex-direction: column;
+    flex-direction: column; /* stack sections vertically */
     padding: 10px;
-  }
-
-  /* put heading first */
-  .abouts {
-    order: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: auto;
   }
 
   .abouts h2 {
-    font-size: 32px;
-    text-align: center;
-    margin-bottom: 20px;
+    font-size: 36px;
   }
 
-  /* put image second */
-  .abouts2 {
-    order: 2;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-  }
-
-  .abouts2 img {
-    width: 100%;
-    border-radius: 15px;
-    margin: 20px 0;
-  }
-
-  /* put paragraph third */
   .abouts p {
-    order: 3;
     font-size: 16px;
-    text-align: justify;
+  }
+
+  .abouts2 {
     margin-top: 20px;
-    word-spacing: normal;
+    padding: 10px;
   }
 }
