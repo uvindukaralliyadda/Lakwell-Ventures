@@ -18,12 +18,14 @@ const App = () => {
       <Credibility/>
       <div className="container">
       <AboutSection/>
-      <Articles/>
-      <People/>
-      
-      <Industries/>
-      <Contact/>
       </div>
+      <Articles/>
+      <div className="container">
+      <People/>
+      <Industries/>
+      </div>
+      <Contact/>
+      
       <Footer/>
     </div>
   )
