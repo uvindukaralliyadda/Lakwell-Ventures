@@ -190,8 +190,20 @@ img {
 /* For medium devices */
 @media screen and (max-width: 768px) {
   .card__container {
-    grid-template-columns: repeat(1, 1fr);
-    column-gap: 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr; /* one card per row */
+    justify-items: center;      /* center each card horizontally */
+    row-gap: 2rem;
+    padding: 0 10px;           /* optional: small padding to avoid touching screen edges */
+  }
+
+  .card__article {
+    margin: 0;                 /* remove extra right/left margin */
+  }
+
+  .card__img, .card__data {
+    width: 100%;               /* fill card width */
+    max-width: 328px;          /* prevent stretching too wide */
   }
 
   .service-header h2 {
