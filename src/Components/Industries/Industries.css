@@ -62,7 +62,7 @@
     bottom: 0;
     right: 0;
     background: rgba(0, 15, 152, 0.3);
-    
+    transition: all 0.3s ease-in-out;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -72,11 +72,10 @@
     opacity: 0;
 }
 
-.cards:hover .card-des {
+.cards:hover .card-des,
+.cards.show-hover .card-des { /* added class for auto hover */
     opacity: 1;
-    transition: all 0.3s ease-in-out;
 }
-
 
 /* MOBILE RESPONSIVE */
 @media screen and (max-width: 1024px) {

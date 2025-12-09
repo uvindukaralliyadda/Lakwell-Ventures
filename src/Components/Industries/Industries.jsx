@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Industries.css'
 import roads from '../../assets/Roads.jpg'
 import wind from '../../assets/windturbine.jpg'
@@ -10,6 +10,28 @@ import restaurant from '../../assets/restaurant.jpg'
 import bot from '../../assets/bot.jpg'
 
 const Industries = () => {
+
+     useEffect(() => {
+    const cards = document.querySelectorAll('.cards');
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('show-hover'); // add hover effect
+          }
+        });
+      },
+      { threshold: 0.5 } // triggers when 50% of the card is visible
+    );
+
+    cards.forEach(card => observer.observe(card));
+
+    return () => {
+      cards.forEach(card => observer.unobserve(card));
+    };
+  }, []);
+
   return (
    <div className='Industries' id='projects'>
         <div className='project-heading'>
