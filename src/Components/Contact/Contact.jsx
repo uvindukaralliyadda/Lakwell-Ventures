@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Contact.css'
 import mobile from '../../assets/pHone.png'
 import location from '../../assets/finallocation.png'
@@ -7,6 +7,30 @@ import contactimg from '../../assets/contactimg.png'
 
 
 const Contact = () => {
+
+  const [result, setResult] = useState('')
+
+  const onSubmit = async (event) => {
+    event.preventDefault()
+    const formData = new FormData(event.target)
+    formData.append('access_key', 'a359ee39-0e66-494d-b43d-aa163768192c')
+
+    const response = await fetch('https://api.web3forms.com/submit', {
+      method: 'POST',
+      body: formData,
+    })
+
+    const data = await response.json()
+    if (data.success) {
+      setResult('✅ Message sent successfully!')
+      event.target.reset()
+    } else {
+      setResult('❌ Error sending message. Please try again.')
+    }
+  }
+
+
+
   return (
     <div className='contact' id='contact'>
         
@@ -26,7 +50,7 @@ const Contact = () => {
         </div>
         <div className='contact-form'>
           <h2>Fill this up. We will reach you with 1-2 days!</h2>
-        <form>
+        <form onSubmit={onSubmit}>
             <label>Full Name</label>
             <input type='text' name='name' placeholder='Enter Your Name'/>
             <label>Email</label>
