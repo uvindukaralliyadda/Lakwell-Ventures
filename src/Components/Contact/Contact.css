@@ -160,8 +160,8 @@
         font-size: 14px;
         line-height: 1.5;
         word-wrap: break-word;
-        margin-right: 20%;
-        margin-left: 20%;
+        margin-right: auto;
+        margin-left: auto;
   }
 
     .contact-info ul li img{
