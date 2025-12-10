@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Navbar from './Components/Navbar/Navbar'
 import Hero from './Components/Hero/Hero'
 import AboutSection from './Components/AboutSection/AboutSection' 
@@ -11,8 +11,12 @@ import People from './Components/People/People'
 import Industries from './Components/Industries/Industries'
 
 const App = () => {
+
+  
   return (
+     
     <div>
+      
       <Navbar/>
       <Hero/>
       <Credibility/>
@@ -28,7 +32,9 @@ const App = () => {
       
       <Footer/>
     </div>
-  )
+    
+  );
+  
 }
 
 export default App
