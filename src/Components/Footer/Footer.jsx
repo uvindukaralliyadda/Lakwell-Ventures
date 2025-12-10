@@ -28,10 +28,9 @@ const Footer = () => {
         <div className='footer-3'>
             <h2>Services</h2>
             <ul>
-                <li><a href='#i-fac' >Investment Facilitation</a></li>
                 <li><a href='#i-con' >Tailored Investment Consultation</a></li>
+                <li><a href='#i-fac' >Investment Facilitation</a></li>
                 <li><a href='#i-reg' >Investment Registration</a></li>
-                
             </ul>
         </div>
         </div>

@@ -20,6 +20,11 @@ nav {
 .logo {
   width: 180px;
   margin-right: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.logo:hover {
+  animation: pulse 2s infinite;
 }
 
 nav ul li {
