@@ -96,24 +96,34 @@
     font-weight: 300;
 }
 
-.contact-form form input, 
-.contact-form form textarea{
+.contact-form form input,
+.contact-form form textarea {
     display: block;
     width: 100%;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.1); /* initial glass background */
     padding: 12px 15px;
-    border: 1px solid #ccc;
+    border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 10px;
     outline: none;
     margin-bottom: 15px;
     font-size: 16px;
     box-sizing: border-box;
+    color: #0f0f0f; /* typed text color */
+    transition: background 0.3s, border 0.3s;
 }
 
+/* When typing / focused */
+.contact-form form input:focus,
+.contact-form form textarea:focus {
+    background: rgba(255, 255, 255, 0.2); /* stronger glass effect */
+    border-color: rgba(255, 255, 255, 0.6);
+}
+
+/* Placeholder color */
 .contact-form form input::placeholder,
 .contact-form form textarea::placeholder {
-    color: rgba(255, 255, 255, 0.6); 
-    font-weight: 150; 
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 300;
 }
 
 .contact-form form textarea{
