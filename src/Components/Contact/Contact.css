@@ -38,7 +38,28 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     flex: 1;
     min-width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.contact-square:hover {
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+}
+
 
 .contact-square img{
     width: 60px;
@@ -61,7 +82,7 @@
     text-align: center;
     margin-top: 15px;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 450;
     color: #0f0f0f;
 }
 
