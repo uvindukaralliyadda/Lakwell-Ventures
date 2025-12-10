@@ -40,13 +40,22 @@
 .contact-info{
     flex-basis: 30%; /* more space for info */
     min-width: 250px; /* responsive minimum */
-    
+    }
+/*glassmorphism*/
+.contact-info{
+    background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 15px; 
+  border: 1px solid rgba(255, 255, 255, 0.3); 
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); 
+  padding: 20px;
 }
 
 .contact-info h2, .contact-form h2{
     font-size: 24px;
     margin-bottom: 20px;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .contact-info ul{
@@ -58,9 +67,10 @@
     align-items: center;
     margin-bottom: 50px;
     list-style: none;
-    gap: 25px;
+    gap: 15px;
     margin-top: 60px;
-    font-weight: 200;
+    font-weight: 300;
+    text-align: justify;
 }
 
 
@@ -74,17 +84,24 @@
 .contact-form{
     flex-basis: 65%; /* takes remaining space */
     min-width: 300px;
+     background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 15px; 
+  border: 1px solid rgba(255, 255, 255, 0.3); 
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); 
+  padding: 20px;
 }
 
 .contact-form form label{
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .contact-form form input, 
 .contact-form form textarea{
     display: block;
     width: 100%;
-    background: #fff;
+    background: transparent;
     padding: 12px 15px;
     border: 1px solid #ccc;
     border-radius: 10px;
