@@ -226,7 +226,7 @@ img {
   }
 }
 
-.card__article{
+.containerx{
   animation: blur-in  linear;
   animation-timeline: view();
   animation-range: entry 30%;

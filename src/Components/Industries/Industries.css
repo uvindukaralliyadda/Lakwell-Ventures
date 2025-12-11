@@ -115,7 +115,7 @@
   }
 }
 
-.cards{
+.Industries{
   animation: power-on  linear;
   animation-timeline: view();
   animation-range: entry 30%;

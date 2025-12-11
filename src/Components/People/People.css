@@ -140,7 +140,7 @@
   }
 }
 
-.peoples-header, .people-image, .people-header{
+.peoples{
   animation: float-btt-in  linear;
   animation-timeline: view();
   animation-range: entry 30%;
