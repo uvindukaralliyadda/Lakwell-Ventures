@@ -6,6 +6,8 @@
   color: #f2f2f2;
 }
 
+
+
 /* Main footer section */
 .footer {
   display: flex;
@@ -39,6 +41,9 @@
 }
 
 .footer-1 h2 {
+  width: 150px;
+  height: auto;
+  align-items: center;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -114,6 +119,16 @@
   .footer-2 ul li a, .footer-3 ul li a {
     font-size: 14px;
     white-space: nowrap;
+  }
+
+  .footer-1 h2 img{
+    align-items: center;
+  }
+
+  .foot_logo{
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto ;
   }
 }
 

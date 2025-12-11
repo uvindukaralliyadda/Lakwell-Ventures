@@ -1,5 +1,6 @@
 import React from 'react'
 import './Footer.css'
+import logo from '../../assets/Reyaan Logo.png'
 
 const Footer = () => {
   return (
@@ -7,7 +8,11 @@ const Footer = () => {
       <div className='footer'>
         <div className='footerx'>
           <div className='footer-1'>
-            <h2>Reyaan Ventures</h2>
+            <h2 className="foot_logo">
+              <a href="#hero">
+                <img src={logo} alt="Reyaan Ventures Logo" />
+              </a>
+            </h2>
             <p>Reyaan Ventures connects foreign investors with Sri Lankan projects, 
                 ensuring trusted, efficient, and successful investment solutions.</p>
           </div>

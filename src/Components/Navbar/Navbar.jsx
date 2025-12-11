@@ -1,5 +1,6 @@
 import React , { useState } from 'react'
 import './Navbar.css'
+import logo from '../../assets/Reyaan Logo.png'
 
 const Navbar = () => {
 
@@ -15,7 +16,11 @@ const Navbar = () => {
 
   return (
     <nav className='container'>
-      <h2 className='logo'><a href='#hero'>Reyaan Ventures</a></h2>
+      <h2 className='logo'>
+        <a href='#hero'>
+          <img src={logo} alt="Reyaan Ventures Logo" />
+        </a>
+      </h2>
 
       <div className='nav-toggle' onClick={toggleMenu}>
         <span></span>

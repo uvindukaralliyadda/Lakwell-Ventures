@@ -18,7 +18,10 @@ nav {
 }
 
 .logo {
-  width: 180px;
+  width:150px;
+  height: auto;
+  border: solid 1px #0f0f0f;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
   margin-right: 10px;
   transition: transform 0.3s ease-in-out;
 }
@@ -50,7 +53,13 @@ nav ul li a:hover{
     opacity: 0;
     flex-direction: column;
     width: 100%;
-    background-color: #211832;
+   /* glass morphism*/
+   background: rgba(33, 24, 50, 0.4); /* semi-transparent purple */
+  backdrop-filter: blur(10px);       /* creates the glass effect */
+  -webkit-backdrop-filter: blur(10px); /* for Safari */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* subtle border */
+  border-radius: 15px;               /* rounded corners */
+  /* */
     position: absolute;
     top: 60px;
     left: 0;
@@ -87,6 +96,8 @@ nav ul li a:hover{
   }
 
   .logo {
-    width: 140px;
+    width:150px;
+    height: auto;
+    
   }
 }

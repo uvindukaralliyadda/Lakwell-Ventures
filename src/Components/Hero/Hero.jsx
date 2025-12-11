@@ -1,7 +1,8 @@
 import React from 'react'
 import './Hero.css'
 import hero from '../../assets/Hero.jpg'
-import profilePDF from '../../assets/Lakwell Ventures Company Profile.pdf';
+import profilePDF from '../../assets/Reyaan Ventures - Coporate Profile.pdf';
+
 
 const Hero = () => {
   return (
