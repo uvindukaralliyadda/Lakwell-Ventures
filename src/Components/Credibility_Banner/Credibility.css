@@ -61,19 +61,21 @@
     }
 }
 
-@keyframes appear{
+@keyframes bouncein{
   from{
     opacity: 0;
-    scale: 0.5;
+   /* scale: 0.5;*/
+    transform: translateY(20px);
   }
   to{
     opacity: 1;
-    scale: 1;
+    /*scale: 1;*/
+    transform: translateY(0px);
   }
 }
 
 .credibility{
-  animation: appear  linear;
+  animation: bouncein  linear;
   animation-timeline: view();
   animation-range: entry 30%;
 }
