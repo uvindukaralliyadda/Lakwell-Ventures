@@ -9,12 +9,12 @@ const Credibility = () => {
     <div className='credible'>
       <div className='credibility'>
         <img src={deals}/>
-        <h2>120+</h2>
-        <p>Successful deals mediated</p>
+        <h2>50+</h2>
+        <p>Successful projects mediated</p>
       </div>
       <div className='credibility'>
         <img src={crowd}/>
-        <h2>40+</h2>
+        <h2>10+</h2>
         <p>Active global investors in our network</p>
       </div>
       <div className='credibility'>
