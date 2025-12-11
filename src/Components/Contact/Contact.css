@@ -42,7 +42,7 @@
 }
 
 .contact-square:hover {
-    animation: pulse 2s infinite;
+    animation: pulse 2s ;
 }
 
 @keyframes pulse {

@@ -90,7 +90,7 @@
 
 /* hovering cards */
 .people-header:hover, .people-image:hover{
-  animation: pulse 2s infinite;
+  animation: pulse 2s ;
 }
 
 /* Mobile Responsive adjustments */
