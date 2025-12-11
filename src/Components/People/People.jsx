@@ -1,6 +1,6 @@
 import React from 'react'
 import './People.css'
-import chairmanImage from '../../assets/chairman.jpg'
+
 
 const People = () => {
   return (
