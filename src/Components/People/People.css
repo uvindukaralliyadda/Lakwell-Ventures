@@ -48,6 +48,9 @@
   background: rgba(255, 255, 255, 0.1); /* semi-transparent */
   backdrop-filter: blur(10px); /* blur behind the element */
   -webkit-backdrop-filter: blur(10px); /* for Safari */
+
+  /*transition*/
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .people-image h3 {
@@ -75,6 +78,8 @@
   background: rgba(255, 255, 255, 0.1); /* semi-transparent */
   backdrop-filter: blur(10px); /* blur behind the element */
   -webkit-backdrop-filter: blur(10px); /* for Safari */
+  /*transition*/
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .people-header p{
@@ -83,6 +88,10 @@
   line-height: 1.6;
 }
 
+/* hovering cards */
+.people-header:hover, .people-image:hover{
+  animation: pulse 2s infinite;
+}
 
 /* Mobile Responsive adjustments */
 @media (max-width: 768px) {
