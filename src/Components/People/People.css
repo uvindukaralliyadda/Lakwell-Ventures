@@ -1,198 +1,117 @@
 .PeopleOver{
-  margin: 40px auto;
+  margin: 40px auto 10px; 
   width: 100%;
-    
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+    background:linear-gradient(rgba(6, 4, 24, 0.5), rgba(12, 10, 27, 0.5)),url('../../assets/office.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .peoples-header{
     text-align: center;
   font-weight: 600;
   font-size: 50px;
-  margin-bottom: 30px;
-}
+  margin-bottom: 30px;}
 
 .peoples-header h2 {
   text-align: center;
   font-weight: 600;
   font-size: 50px;
   margin-bottom: 30px;
+  /* glass morph */
+  background: rgba(255, 255, 255, 0.1); /* semi-transparent */
+  backdrop-filter: blur(10px); /* blur behind the element */
+  -webkit-backdrop-filter: blur(10px); /* for Safari */
 }
 
 .people {
   display: flex;
-  gap: 0px; /* space between left and right */
+  gap: 20px; /* space between left and right */
+  align-items: stretch;
+  justify-content: space-evenly;
+  
 }
 
 .people-image {
-  flex: 1; /* left column */
-  margin-left: 100px;
-  display: block ;
-  align-items: center;
+  flex: 1; /* left side takes 1 part */
+  flex-basis: 40%;
+  align-items: stretch;
+  line-height: 1.6;
+  border: solid 1px #f2f2f2;
+  padding: 10px 10px;
+  border-radius: 25px;
+  /* glass morph */
+  background: rgba(255, 255, 255, 0.1); /* semi-transparent */
+  backdrop-filter: blur(10px); /* blur behind the element */
+  -webkit-backdrop-filter: blur(10px); /* for Safari */
 }
 
+.people-image h3 {
+  text-wrap: no wrap;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.people-image hr{
+  margin-bottom: 5px;
+}
+
+.people-image p {
+  margin-bottom: 5px;
+  text-align: center;
+}
 
 .people-header {
-  flex: 1; /* right column */
-  margin-bottom: 50px;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.6;
-  text-align: justify; /* optional */
-  max-width: 600px; /* keeps paragraph readable */
-  margin-right: 110px;
-  margin-top: 30px;
-  margin-left: 0;
-  width: auto;
-}
-
-/* Optional: make image responsive */
-.people-image img {
-  width: 100%;
-  height: auto;
-  display: block;
+  
+  flex-basis: 60%;
+  border: solid 1px #f2f2f2;
+  padding: 10px 10px;
   border-radius: 25px;
-  width: 300px;
-  height:auto;
-  margin-bottom: 20px;
+  /* glass morph */
+  background: rgba(255, 255, 255, 0.1); /* semi-transparent */
+  backdrop-filter: blur(10px); /* blur behind the element */
+  -webkit-backdrop-filter: blur(10px); /* for Safari */
 }
 
-
-.people-image-details{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 0;
-    max-width: 300px;
-    padding-top: 20px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
-.people-image-details span{
-    margin-top: 5px;
-     max-width: 600px;
-     color: #211832;
-}
-
-.people-image-details h4{
-    margin-top: 5px;
-    margin-bottom: 10px;
-}
-
-.people-header p {
-  word-spacing: 0;
-  letter-spacing: 0;
+.people-header p{
+  font-weight: 400;
+  font-size: 15px;
   line-height: 1.6;
-  width: 500px;
-  text-align: left;
-  font-size: 20px; /* desktop default */
-  
-  
 }
 
+
+/* Mobile Responsive adjustments */
 @media (max-width: 768px) {
-  .PeopleOver{
-  margin: 40px auto;
-  
-}
+  .people {
+    flex-direction: column; /* stack left and right sections vertically */
+    gap: 15px; /* smaller gap on mobile */
+  }
+
+  .people-image, .people-header {
+    flex-basis: 100%; /* full width */
+    padding: 10px; /* reduce padding */
+  }
 
   .peoples-header {
-    font-size: 32px;
-    text-align: center;
+    font-size: 36px; /* smaller heading */
     margin-bottom: 20px;
-    
   }
 
-  .people-header p{
-    margin-top: 10px;
-    word-spacing: normal;
-  }
-  .people {
-    flex-direction: column;
-    align-items: center; /* centers ALL children */
+  .people-image h3 {
+    font-size: 20px; /* reduce name font */
     text-align: center;
-    gap: 50px;
-    padding: 0 20px;
-    width: 100%;
   }
 
-  .people-image {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;   /* centers the image + text */
-    justify-content: center;
-    margin: 0 auto;        /* ensures perfect center */
+  .people-image p, .people-header p {
+    font-size: 14px; /* smaller paragraph */
+    text-align: center; /* or center if preferred */
   }
 
-  .people-image img {
-    width: 200px;
-    margin: 0 auto;        /* extra centering control */
-  }
-
-  .people-image-details {
-    text-align: center;
-    width: 100%;
-    max-width: 300px;
-  }
-
-  .people-image-details h3 {
-    font-size: 18px;
-  }
-
-  .people-image-details h4 {
-    font-size: 16px;
-  }
-
-  .people-image-details span {
-    font-size: 14px;
-  }
-
-  .people-header {
-    max-width: 100%;
-    margin: 0;
-    text-align: justify;
-    font-size: 20px;
-    width: auto;
-    
-  }
-
-  .people-header p {
-    font-size: 16px; /* smaller for tablets */
-    width: 100%;
-    margin: 0 15px 15px 15px; /* spacing */
-    
-  }
-}
-
-/* Extra small screens */
-@media (max-width: 480px) {
-
-  .people-image-details h3 {
-    font-size: 16px;
-  }
-
-  .people-image-details h4 {
-    font-size: 14px;
-  }
-
-  .people-image-details span {
-    font-size: 12px;
-  }
-
-  .people-image img {
-    width: 180px;
-  }
-
-  .people-header {
-    font-size: 18px;
-    width: auto;
-  }
-
-  .people-header p {
-    font-size: 14px; /* smaller for phones */
-    width: 100%;
-    margin: 0 auto 15px auto;
-    word-spacing: normal;
+  .people-image, .people-header {
+    border-radius: 15px; /* slightly smaller border radius */
   }
 }

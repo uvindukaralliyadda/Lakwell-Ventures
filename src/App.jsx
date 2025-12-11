@@ -23,9 +23,9 @@ const App = () => {
       <AboutSection/>
       <Articles/>
       
-      <div className="container">
+      
       <People/>
-      </div>
+      
       <Industries/>
      
       <Contact/>

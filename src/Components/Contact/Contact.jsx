@@ -28,7 +28,7 @@ const Contact = () => {
           <div className='contact-square'>
             <img src={location}/>
             <h3>Location</h3>
-            <p>Reyaan Ventures,<br/> Bandaranayekapura Rd,<br/>Rajagiriya</p>
+            <p>70/2/3B,<br/> D S Senanayake Mawatha,<br/>Colombo 08,<br/>00800</p>
           </div>
           
         
