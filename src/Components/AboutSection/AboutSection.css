@@ -84,8 +84,9 @@
   }
 }
 
+/* scroll animations */
 
-@keyframes bouncein{
+@keyframes appear{
   from{
     opacity: 0;
    /* scale: 0.5;*/
@@ -99,7 +100,7 @@
 }
 
 .abouts, .abouts2{
-  animation: bouncein  linear;
+  animation: appear  linear;
   animation-timeline: view();
   animation-range: entry 30%;
 }
