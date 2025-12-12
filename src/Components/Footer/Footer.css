@@ -123,9 +123,13 @@
     white-space: nowrap;
   }
 
-  .footer-1 h2 img{
+  .footer-3 ul li a {
+    display: flex;
+    justify-content: center;
     align-items: center;
   }
+   
+ 
 
   .foot_logo{
     text-align: center;
