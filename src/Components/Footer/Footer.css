@@ -46,6 +46,8 @@
   align-items: center;
   padding-top: 10px;
   padding-bottom: 10px;
+  border-radius: 25px;
+  background-color: #ffff;
 }
 
 .footer-2 ul, .footer-3 ul {

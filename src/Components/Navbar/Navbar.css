@@ -24,6 +24,8 @@ nav {
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
   margin-right: 10px;
   transition: transform 0.3s ease-in-out;
+  border-radius: 25px;
+  background-color: #ffff;
 }
 
 .logo:hover {
