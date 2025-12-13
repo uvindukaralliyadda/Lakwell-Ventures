@@ -28,7 +28,7 @@
 }
 
 .abouts2 img {
-  margin-top: 25px;
+  margin-top: 8px;
   max-width: 100%; /* image fits container */
   height: auto;
   border-radius: 20px;
@@ -79,11 +79,12 @@
     font-size: 16px;
   }
 
-  .abouts2 {
-    margin-top: 20px;
-    padding: 10px;
+  .abouts2 img {
+    margin-top: 0;
+    
   }
-}
 
+  
+}
 /* scroll animations */
 
