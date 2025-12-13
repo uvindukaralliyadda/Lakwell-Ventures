@@ -139,7 +139,7 @@
   position: absolute;
   width: 65%;
   height: fit-content;
-  z-index: 10;
+  z-index: 5;
   border: solid 2px #211832;
   padding: 10px;
   left: 8%;
