@@ -6,6 +6,7 @@
   padding: 20px;
   justify-content: center; /* center content horizontally */
   box-sizing: border-box;
+  background-color: #ffff;
 }
 
 .abouts {
@@ -86,21 +87,3 @@
 
 /* scroll animations */
 
-@keyframes appear{
-  from{
-    opacity: 0;
-   /* scale: 0.5;*/
-    transform: translateX(100px);
-  }
-  to{
-    opacity: 1;
-    /*scale: 1;*/
-    transform: translateX(0px);
-  }
-}
-
-.AboutOver{
-  animation: appear  linear;
-  animation-timeline: view();
-  animation-range: entry 30%;
-}

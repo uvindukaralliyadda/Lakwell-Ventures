@@ -35,8 +35,8 @@ const Industries = () => {
   return (
    <div className='Industries' id='projects'>
         <div className='project-heading'>
-            <h2>Project Scope</h2>
-            <p>We Operate In Multiple Industries</p>
+            <h2>Projects We Invest In</h2>
+            <p>We partner with ventures across diverse sectors, providing capital and strategic support to help them grow.</p>
         </div>
 
         <div className='cards-container'>

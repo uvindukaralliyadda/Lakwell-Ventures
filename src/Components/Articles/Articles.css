@@ -17,7 +17,7 @@
 
 body {
   font-family: var(--body-font);
-  background-color: var(--body-color);
+   background-color: #F5EDED;
   color: var(--text-color);
 }
 
@@ -54,7 +54,7 @@ img {
   place-items: center;
   padding: 20px;
   margin-top: 20px;
-  margin-bottom: 30px;
+  background-color: #F5EDED;
 }
 
 .card__container {
@@ -69,6 +69,7 @@ img {
   margin-right: 25px;
   align-items: stretch;
   border-radius: 1.5rem;
+  border: solid 2px #211832;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -82,6 +83,7 @@ img {
   width: 280px;
   background-color: #fff;
   padding: 5px 5px;
+  border: solid 2px #211832;
   box-shadow: 0 8px 24px hsla(0, 0%, 0%, .15);
   border-radius: 1rem;
   position: absolute;

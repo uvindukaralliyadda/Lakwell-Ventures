@@ -1,6 +1,8 @@
 .contact{
-    margin: 20px auto 0;
-    padding-top: 40px;
+  margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
     padding-bottom: 20px;
     overflow: hidden;
     background-image: linear-gradient(rgba(6, 4, 24, 0.9), rgba(12, 10, 27, 0.9)), url('../../assets/Hero.jpg');

@@ -9,7 +9,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 110px 25px 20px 25px; /* shorthand */
+  margin: 100px 25px 20px 25px; /* shorthand */
   border-radius: 25px;
 }
 
@@ -66,7 +66,7 @@
 @media (max-width: 768px) {
   .hero-container {
     width: calc(100% - 20px);
-    margin: 110px 10px 20px 10px;
+    margin: 90px 10px 20px 10px;
   }
 
   .hero-text h1 {
@@ -87,7 +87,7 @@
 
 @keyframes spring-rtl-in{
   from{
-    opacity: 0;
+     opacity: 0;
     scale: 0.5;
   }
   to{
@@ -98,6 +98,6 @@
 
 .hero-text{
   animation: spring-rtl-in 2s  linear;
-  /*timeline */
+ 
   
 }
