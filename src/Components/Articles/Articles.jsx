@@ -3,16 +3,18 @@ import './Articles.css'
 import investment from '../../assets/Investment.jpg'
 import consultant from '../../assets/consultant.jpg'
 import register from '../../assets/register.jpg'
-
+import { motion } from "motion/react"
 
 const Articles = () => {
   return (
-    <div class="containerx" id='services'>
+    <motion.div class="containerx" id='services' initial={{ opacity: 0 }}
+        whileInView={{opacity: 1 }}
+        transition={{ duration: 1 }}>
         <div className='service-header' id='services'>
         <h2>Our Services</h2>
         <p><b>Backing Businesses With Capital, Strategy and Guidance.</b></p>
         </div>
-         <div class="card__container">
+         <motion.div class="card__container" initial={{ opacity: 0 }} whileInView={{opacity: 1 }} transition={{ duration: 1 }}>
 
             <article class="card__article" id='i-con'>
                <img src={consultant} alt="image" class="card__img"/>
@@ -46,8 +48,8 @@ const Articles = () => {
                   
                </div>
             </article>
-         </div>
-         </div>
+         </motion.div>
+         </motion.div>
   )
 }
 
