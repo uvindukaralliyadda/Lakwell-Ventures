@@ -17,13 +17,13 @@ const Contact = () => {
           <motion.div className='contact-square' initial={{ opacity: 0 }} whileInView={{opacity: 1 }} transition={{ duration: 2 }}>
             <img src={emailIcon}/>
             <h3>Email</h3>
-            <p>info@reyaanventures.com</p>
-            <p>Reyaan@gmail.com</p>
+            <a  href="https://mail.google.com/mail/?view=cm&fs=1&to=info@reyaanventures.com" target="_blank" rel="noopener noreferrer"><p>info@reyaanventures.com</p></a>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=reyaan@gmail.com"  target="_blank" rel="noopener noreferrer" className="email-link"><p>Reyaan@gmail.com</p></a>
           </motion.div>
           <motion.div className='contact-square' initial={{ opacity: 0 }} whileInView={{opacity: 1 }} transition={{ duration: 2 }}>
             <img src={mobile}/>
             <h3>Phone Number</h3>
-            <p>+94 74 135 1434</p>
+            <a href="tel:+94741351434" className="phone-link"><p>+94 74 135 1434</p></a>
           </motion.div>
           <motion.div className='contact-square' initial={{ opacity: 0 }} whileInView={{opacity: 1 }} transition={{ duration: 2 }}>
             <img src={location}/>

@@ -87,6 +87,20 @@
     font-weight: 450;
     color: #0f0f0f;
 }
+.email-link {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+
+.phone-link {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+
 
 /* ============================= */
 /*       MOBILE RESPONSIVE       */
