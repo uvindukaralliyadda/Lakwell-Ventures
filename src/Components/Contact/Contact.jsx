@@ -16,7 +16,7 @@ const Contact = () => {
           <div className='contact-square' >
             <img src={emailIcon}/>
             <h3>Email</h3>
-            <p>Reyaan@reyaanventures.com</p>
+            <p>info@reyaanventures.com</p>
             <p>Reyaan@gmail.com</p>
           </div>
           <div className='contact-square' >
