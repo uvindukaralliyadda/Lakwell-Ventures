@@ -9,12 +9,12 @@ const Articles = () => {
   return (
     <motion.div class="containerx" id='services' initial={{ opacity: 0 }}
         whileInView={{opacity: 1 }}
-        transition={{ duration: 1 }}>
+        transition={{ duration: 2 }}>
         <div className='service-header' id='services'>
         <h2>Our Services</h2>
         <p><b>Backing Businesses With Capital, Strategy and Guidance.</b></p>
         </div>
-         <motion.div class="card__container" initial={{ opacity: 0 }} whileInView={{opacity: 1 }} transition={{ duration: 1 }}>
+         <motion.div class="card__container" initial={{ opacity: 0 }} whileInView={{opacity: 1 }} transition={{ duration: 2 }}>
 
             <article class="card__article" id='i-con'>
                <img src={consultant} alt="image" class="card__img"/>
