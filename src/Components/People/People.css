@@ -5,7 +5,7 @@
   padding-right: 20px;
   padding-top: 20px;
   padding-bottom: 40px;
-    background:linear-gradient(rgba(6, 4, 24, 0.5), rgba(12, 10, 27, 0.5)),url('../../assets/office.jpg');
+    background:linear-gradient(rgba(6, 4, 24, 0.5), rgba(12, 10, 27, 0.5)),url('../../assets/footer.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -106,18 +106,22 @@
   }
 
   .peoples-header {
-    font-size: 36px; /* smaller heading */
+    font-size: 25px; /* smaller heading */
     margin-bottom: 20px;
   }
 
   .people-image h3 {
-    font-size: 20px; /* reduce name font */
+    font-size: 18px; /* reduce name font */
     text-align: center;
   }
 
-  .people-image p, .people-header p {
+  .people-image p {
     font-size: 14px; /* smaller paragraph */
     text-align: center; /* or center if preferred */
+  }
+  .people-header p{
+    font-size: 14px;
+    text-align: left;
   }
 
   .people-image, .people-header {

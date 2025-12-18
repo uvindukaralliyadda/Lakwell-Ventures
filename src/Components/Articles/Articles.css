@@ -81,7 +81,6 @@ img {
 
 .card__data {
   width: 280px;
-  background-color: #fff;
   padding: 5px 5px;
   border: solid 2px #211832;
   box-shadow: 0 8px 24px hsla(0, 0%, 0%, .15);
@@ -94,6 +93,13 @@ img {
   opacity: 1;
   transition: opacity 1s 1s;
   margin-bottom: 20px;
+   /* Glassmorphism styles */
+  background: rgba(255, 255, 255, 0.2); /* semi-transparent */
+  backdrop-filter: blur(10px); /* blur behind */
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* subtle border */
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1); /* soft shadow */
+  
 }
 
 .card__description {
@@ -101,10 +107,11 @@ img {
   font-size: var(--small-font-size);
   margin-bottom: .25rem;
   padding: 5px 5px;
+  font-size: 16px;
 }
 
 .card__title {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 450;
   color: #211832;
   margin: 5px;
@@ -186,11 +193,14 @@ img {
   }
 
   .card__data h2{
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .card__data p{
-    font-size: 16px;
+    font-size: 15px;
+  }
+  .card__title {
+    font-size: 25px;
   }
 }
 

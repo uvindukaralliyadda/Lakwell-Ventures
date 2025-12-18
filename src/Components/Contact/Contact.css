@@ -5,7 +5,7 @@
     padding-top: 20px;
     padding-bottom: 20px;
     overflow: hidden;
-    background-image: linear-gradient(rgba(6, 4, 24, 0.9), rgba(12, 10, 27, 0.9)), url('../../assets/Hero.jpg');
+    background-image: linear-gradient(rgba(6, 4, 24, 0.9), rgba(12, 10, 27, 0.9)), url('../../assets/footer.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -136,7 +136,7 @@
   }
 
   .contact h2 {
-    font-size: 32px;
+    font-size: 25px;
     padding: 0 10px;
     text-wrap: wrap;
   }
