@@ -1,6 +1,9 @@
 import React from 'react'
 import './Projects.css'
 import roads from '../../assets/Roads.jpg'
+import agriculture from '../../assets/agriculture.jpg'
+import Healthcare from '../../assets/Healthcare.jpg'
+import IT from '../../assets/IT companies.jpg'
 import wind from '../../assets/windturbine.jpg'
 import urban from '../../assets/urban.jpg'
 import airline from '../../assets/airline.jpg'
@@ -19,55 +22,86 @@ const Projects = () => {
          <p>We partner with ventures across diverse sectors, providing capital and strategic support to help them grow.</p>
       </div>
       <div  className='project-images'>
-                  <motion.div  className='project-article' initial={{ opacity: 0 }} whileInView={{opacity: 1 }} transition={{ duration:2 }}>
-                      <img src={hospitality}/>
-                      <div className='project-des'><h3>Hospitality</h3>
-                      <p>Investing in hotels, resorts, tourism worldwide.</p>
-                      </div>
-                  </motion.div>
-      
-                  <motion.div className='project-article' initial={{ opacity: 0 }} whileInView={{opacity: 1 }} transition={{ duration: 2 }}>
-                      <img src={yoga}/>
-                      <div className='project-des'><h3>Wellness</h3>
-                      <p>Supporting wellness, spa, holistic health businesses.</p>
-                      </div>
-                  </motion.div>
-      
-                  <motion.div className='project-article' initial={{ opacity: 0 }} whileInView={{opacity: 1 }} transition={{ duration: 2 }}>
-                      <img src={airline}/>
-                      <div className='project-des'>
-                          <h3>Airline GSA</h3>
-                          <p>Partnering with airlines for global distribution.</p></div>
-                  </motion.div>
-      
-                  <motion.div className='project-article' initial={{ opacity: 0 }} whileInView={{opacity: 1 }} transition={{ duration: 2 }}>
-                      <img src={urban}/>
-                      <div className='project-des'><h3>Mix Development</h3>
-                      <p>Financing integrated retail, residential, commercial projects.</p>
-                      </div>
-                  </motion.div>
-      
-                  <motion.div className='project-article' initial={{ opacity: 0 }} whileInView={{opacity: 1 }} transition={{ duration: 2 }}>
-                      <img src={wind}/>
-                      <div className='project-des'><h3>Renewable Energy</h3>
-                      <p>Funding sustainable solar, wind, hydro projects.</p>
-                      </div>
-                  </motion.div>
-      
-                  <motion.div className='project-article' initial={{ opacity: 0 }} whileInView={{opacity: 1 }} transition={{ duration: 2 }}>
-                      <img src={restaurant}/>
-                      <div className='project-des'><h3>Restaurant Chains</h3>
-                      <p>Scaling restaurant brands nationally and globally.</p>
-                      </div>
-                  </motion.div>
-      
-                  <motion.div className='project-article' initial={{ opacity: 0 }} whileInView={{opacity: 1 }} transition={{ duration: 2 }}>
-                      <img src={bot}/>
-                      <div className='project-des'><h3>BOT and BOOT Projects</h3>
-                      <p>Backing global infrastructure via BOT, BOOT.</p>
-                      </div>
-                  </motion.div>
-      
+                  <motion.div className='project-article' initial={{ opacity: 0 }} whileInView={{opacity: 1 }} transition={{ duration:2 }}>
+                        <img src={hospitality}/>
+                        <div className='project-des'>
+                            <h3>Hospitality</h3>
+                            <p>Investing in hotels, resorts, tourism worldwide.</p>
+                        </div>
+                    </motion.div>
+
+                    <motion.div className='project-article' initial={{ opacity: 0 }} whileInView={{opacity: 1 }} transition={{ duration: 2 }}>
+                        <img src={restaurant}/>
+                        <div className='project-des'>
+                            <h3>Restaurant Chains</h3>
+                            <p>Scaling restaurant brands nationally and globally.</p>
+                        </div>
+                    </motion.div>
+
+                    <motion.div className='project-article' initial={{ opacity: 0 }} whileInView={{opacity: 1 }} transition={{ duration: 2 }}>
+                        <img src={yoga}/>
+                        <div className='project-des'>
+                            <h3>Wellness</h3>
+                            <p>Supporting wellness, spa, holistic health businesses.</p>
+                        </div>
+                    </motion.div>
+
+                    <motion.div className='project-article' initial={{ opacity: 0 }} whileInView={{opacity: 1 }} transition={{ duration: 2 }}>
+                        <img src={airline}/>
+                        <div className='project-des'>
+                            <h3>Airline GSA</h3>
+                            <p>Partnering with airlines for global distribution.</p>
+                        </div>
+                    </motion.div>
+
+                    <motion.div className='project-article' initial={{ opacity: 0 }} whileInView={{opacity: 1 }} transition={{ duration: 2 }}>
+                        <img src={urban}/>
+                        <div className='project-des'>
+                            <h3>Mix Development</h3>
+                            <p>Financing integrated retail, residential, commercial projects.</p>
+                        </div>
+                    </motion.div>
+
+                    <motion.div className='project-article' initial={{ opacity: 0 }} whileInView={{opacity: 1 }} transition={{ duration: 2 }}>
+                        <img src={bot}/>
+                        <div className='project-des'>
+                            <h3>BOT and BOOT Projects</h3>
+                            <p>Backing global infrastructure via BOT, BOOT.</p>
+                        </div>
+                    </motion.div>
+
+                    <motion.div className='project-article' initial={{ opacity: 0 }} whileInView={{opacity: 1 }} transition={{ duration: 2 }}>
+                        <img src={wind}/>
+                        <div className='project-des'>
+                            <h3>Renewable Energy</h3>
+                            <p>Funding sustainable solar, wind, hydro projects.</p>
+                        </div>
+                    </motion.div>
+
+                    <motion.div className='project-article' initial={{ opacity: 0 }} whileInView={{opacity: 1 }} transition={{ duration: 2 }}>
+                        <img src={agriculture}/>
+                        <div className='project-des'>
+                            <h3>Agriculture</h3>
+                            <p>Investing in farms, agri-tech, food startups.</p>
+                        </div>
+                    </motion.div>
+
+                    <motion.div className='project-article' initial={{ opacity: 0 }} whileInView={{opacity: 1 }} transition={{ duration: 2 }}>
+                        <img src={Healthcare}/>
+                        <div className='project-des'>
+                            <h3>Health Care</h3>
+                            <p>Supporting joint ventures in diagnostic centers, hospitals.</p>
+                        </div>
+                    </motion.div>
+
+                    <motion.div className='project-article' initial={{ opacity: 0 }} whileInView={{opacity: 1 }} transition={{ duration: 2 }}>
+                        <img src={IT}/>
+                        <div className='project-des'>
+                            <h3>IT Companies</h3>
+                            <p>Funding software, SaaS, digital technology startups.</p>
+                        </div>
+                    </motion.div>
+
               </div>
     </motion.div >
   )
