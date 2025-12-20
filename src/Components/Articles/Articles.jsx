@@ -31,7 +31,7 @@ const Articles = () => {
                <img src={investment} alt="image" class="card__img"/>
 
                <div class="card__data">
-                    <h2 class="card__title">Investment Facilitation</h2>
+                    <h2 class="card__title" id='carddddd'>Investment Facilitation</h2>
                      <span class="card__description">Seamlessly guiding investors through every process.</span>
                   
                   

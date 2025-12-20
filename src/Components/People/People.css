@@ -84,7 +84,7 @@
 
 .people-header p{
   font-weight: 400;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 1.6;
 }
 
@@ -120,7 +120,7 @@
     text-align: center; /* or center if preferred */
   }
   .people-header p{
-    font-size: 14px;
+    font-size: 17px;
     text-align: left;
   }
 

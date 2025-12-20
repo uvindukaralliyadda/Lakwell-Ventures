@@ -80,6 +80,11 @@ img {
 }
 
 .card__data {
+  flex: 1;                /* Stretch to fill available height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
   width: 280px;
   padding: 5px 5px;
   border: solid 2px #211832;
