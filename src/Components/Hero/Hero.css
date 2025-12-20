@@ -94,12 +94,17 @@
   outline: none;
 }
 
-.btn img{
+.btn img, .btn1 img {
  width: 20px;
   height: 20px;
   object-fit: contain;
 }
 
+.btn1{
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+ } 
 .btn:hover {
   transition: 0.6s ease-in-out;
   background-color: #fff;

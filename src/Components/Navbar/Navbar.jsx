@@ -36,7 +36,7 @@ const Navbar = () => {
         <li><a href='#projects' onClick={closeMenu}>Industries</a></li>
         <li>
           
-          <button className='btn'>
+          <button className='btn' id='btn3'>
             <a href='#contact' onClick={closeMenu}>
             Get In Touch</a>
           </button>

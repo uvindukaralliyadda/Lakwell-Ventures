@@ -3,6 +3,7 @@ import './Hero.css'
 import video1 from '../../assets/video1.mp4'
 import profilePDF from '../../assets/Reyaan Ventures - Coporate Profile.pdf'
 import download from '../../assets/download.png'
+import arrow from '../../assets/arrow.png'
 
 const Hero = () => {
   return (
@@ -29,10 +30,10 @@ const Hero = () => {
         <p>Sri Lanka's Leading Venture Capital Firm</p>
         <div className='buttons'>
           <a href={profilePDF} download="Company_Profile.pdf">
-            <button className='btn'><img src={download}/>Download Company Profile</button>
+            <button className='btn'><img src={download}/>Company Profile</button>
           </a>
           <a href='#contact'>
-            <button className='btn1'>Contact</button>
+            <button className='btn1'>Contact<img src={arrow}/></button>
           </a>
         </div>
       </div>
