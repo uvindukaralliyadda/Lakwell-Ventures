@@ -11,7 +11,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   z-index: 10;
-  border-radius: 25px;
+  border-radius: 15px;
   background-color: #211832;
   margin-left: auto;
   margin-right: auto;
@@ -24,7 +24,7 @@ nav {
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
   margin-right: 10px;
   transition: transform 0.3s ease-in-out;
-  border-radius: 25px;
+  border-radius: 15px;
   background-color: #ffff;
 }
 

@@ -131,9 +131,7 @@ img {
 
 /* hover */
 
-.card__article:hover  {
-  animation: pulse 2s infinite;
-}
+
 
 
 /*=============== BREAKPOINTS ===============*/

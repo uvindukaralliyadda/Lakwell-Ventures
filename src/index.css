@@ -36,7 +36,7 @@ a{
 .btn{
   background-color: #fff;
   padding: 10px 25px;
-  border-radius: 30px;
+  border-radius: 15px;
   font-size: 18px;
   border: 0;
   cursor: pointer;
@@ -47,7 +47,7 @@ a{
   background-color: #000;
   color: #fff;
   padding: 10px 25px;
-  border-radius: 30px;
+  border-radius: 15px;
   font-size: 18px;
   border: 0;
   cursor: pointer;
