@@ -45,8 +45,10 @@ nav ul li a:hover{
   text-shadow: 4px 4px 10px rgba(228, 219, 219, 0.3);
 }
 
-#btn3{
-  color: white;
+
+
+.btn:hover{
+  color: black;
 }
 
 /* Mobile view */
